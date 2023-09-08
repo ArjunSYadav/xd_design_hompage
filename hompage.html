@@ -1,56 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sticky Header Example</title>
-    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/style.css" />
 
-<!-- font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
 
-
-</head>
-<body>
+    <!-- font  awesome link -->
+  </head>
+  <body>
     <header id="sticky-header">
+      <button id="menu-toggle" class="hamburger">&#9776;</button>
 
-        <button id="menu-toggle" class="hamburger">&#9776;</button>
-
-        <nav class="menu">
-            <ul class="nav justify-content-center  ">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Blogs</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Videos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
+      <nav class="menu">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
     </header>
+
+    <section class="hero_section">
+      <div class="content">
+        <div class="text_content">
+            <div class="information">
+          <button class="small_button">Join us <icon></icon></button>
+          <h1 class="heading-h1">
+            Academy of Wellbeing means a journey towards learning to make
+            wellbeing real for the most marginalised
+          </h1>
+          <p class="paragraph">
+            The Academy of Wellbeing(AoW), supported by YuWaah and anchored by
+            Swasti, empowers young individuals to become advocates for Sexual
+            Reproductive Health and Rights. With faculty, Coaches, and peers who
+            are experts in Policy, Advocacy, and Communication, AoW, guides and
+            equips the next generation of policy advocates.
+          </p>
+          <button class="large_button">View Our Work</button>
+        </div>
+        </div>
+        <div class="image_content">
+          <img src="/assets/images/lady.png" class="hero_section_image"/>
+        </div>
+      </div>
+    </section>
+
     <div id="content">
-        <!-- Your page content goes here -->
+      <!-- Your page content goes here -->
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="assets/jquery.js"></script>
-</body>
+  </body>
 </html>
-
-
