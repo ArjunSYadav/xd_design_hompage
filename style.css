@@ -45,3 +45,39 @@ nav.menu {
     height: 2000px; /* Add enough content to make scrolling necessary */
 }
 
+/* Style for the hamburger menu button */
+#menu-toggle {
+    display: none; /* Initially hidden on larger screens */
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    #menu-toggle {
+        display: block; /* Display the hamburger button on mobile screens */
+    }
+    
+    #nav {
+        display: none; /* Hide the navigation menu by default on mobile screens */
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    #nav.active {
+        display: flex; /* Display the navigation menu when active */
+    }
+
+    #nav a {
+        margin: 10px 0;
+    }
+}
