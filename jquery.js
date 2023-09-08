@@ -21,8 +21,11 @@ $(document).ready(function() {
     $(window).scroll(function() {
         checkStickyHeader();
     });
-$("#menu-toggle").click(function() {
-        $("#nav").toggleClass("active");
+
+
+    $("#menu-toggle").click(function() {
+        $(".menu").toggleClass("active");
     });
     
+
 });
