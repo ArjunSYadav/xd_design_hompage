@@ -63,7 +63,7 @@ li.nav-item a {
 
 /* hero sections */
 .hero_section {
-    box-shadow: inset 0 0 0 1000px rgb(100 112 236 / 82%);
+    box-shadow: inset 0 0 0 1000px rgb(100 112 236 / 91%);
     background-image: url("/assets/images/background.png");
     min-height: 800px;
     display: flex;
@@ -88,9 +88,11 @@ li.nav-item a {
     width: 80%;
     margin: auto;
     align-items: center;
+    gap: 50px;
 }
 img.hero_section_image {
     border-radius: 6px;
+    width:100%
 }
 h1.heading-h1 {
     color: white;
@@ -98,8 +100,75 @@ h1.heading-h1 {
     font-family: 'Poppins';
     line-height: 45px;
     font-weight: 600;
+    margin: 0px;
 }
 
+p.paragraph {
+    font-size: 14px;
+    color: white;
+}
+button.large_button {
+    border-radius: 35px;
+    height: 40px;
+    width: 250px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+button.small_button {
+    width: 100px;
+    background: yellow;
+    border-radius: 20px;
+    height: 30px;
+    border: none;
+    color: black;
+    margin-bottom: 5px;
+}
+button.large_button:hover {
+    background: yellow;
+    border-color: yellow;
+}
+li.nav-item {
+    padding: 5px 10px;
+}
+li.nav-item:hover {
+    background: yellow;
+}
+
+section.our_team p.paragraph {
+    color: black;
+}
+
+.View.All {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.small_image {
+    display: flex;
+}
+.small_image img {
+    width: 100%;
+    height: 42px;
+    border-radius: 44%;
+}
+section.our_team button.large_button {
+    background: blue;
+    width: 170px;
+    height: 50px;
+}
+span.counting {
+    font-size: 14px;
+    color: #3695cf;
+    font-weight: 500;
+}
+section.our_team {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
 /* Media query for mobile screens */
 @media (max-width: 768px) {
     #menu-toggle {
