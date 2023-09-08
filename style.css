@@ -11,7 +11,6 @@ body{
     top: 10px;
     left: 0;
     width: 100%;
-    background-color: #333;
     padding: 10px 0;
     color: #fff;
     z-index: 1000;
@@ -61,6 +60,46 @@ li.nav-item a {
     padding: 0 20px;
 }
 
+
+/* hero sections */
+.hero_section {
+    box-shadow: inset 0 0 0 1000px rgb(100 112 236 / 82%);
+    background-image: url("/assets/images/background.png");
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.image_content {
+    width: 40%;
+    display: flex;
+    justify-content: end;
+}
+.text_content {
+    width: 60%;
+}
+.content {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+img.hero_section_image {
+    border-radius: 6px;
+}
+h1.heading-h1 {
+    color: white;
+    font-size: 35px;
+    font-family: 'Poppins';
+    line-height: 45px;
+    font-weight: 600;
+}
+
 /* Media query for mobile screens */
 @media (max-width: 768px) {
     #menu-toggle {
@@ -107,7 +146,5 @@ li.nav-item a {
 
 }
 
-#content {
-    height: 2000px; /* Add enough content to make scrolling necessary */
-}
+
 
