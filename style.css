@@ -1,16 +1,47 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
 /* Style for the sticky header */
 #sticky-header {
     position: fixed;
-    top: 0;
+    top: 30px;
     left: 0;
     width: 100%;
     background-color: #333;
     padding: 10px 0;
     color: #fff;
     z-index: 1000;
+    
 }
 
-/* Placeholder styles for the page content */
+.menu {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+}
+
+ul.nav.justify-content-center {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 4%;
+}
+li.nav-item {
+    list-style: none;
+}
+
+nav.menu {
+    background: white;
+    border-radius: 5px;
+}
+
 #content {
     height: 2000px; /* Add enough content to make scrolling necessary */
 }
+
